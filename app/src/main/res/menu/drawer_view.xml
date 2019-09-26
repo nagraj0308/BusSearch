@@ -1,0 +1,99 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Air Conditioner">
+        <menu>
+            <item
+                android:id="@+id/ac"
+                android:title="AC"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/nonAc"
+                android:title="NON AC"
+                app:actionViewClass="android.widget.CheckBox" />
+
+        </menu>
+    </item>
+    <item android:title="Volvo">
+        <menu>
+            <item
+                android:id="@+id/volvo"
+                android:title="AC"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/nonVolvo"
+                android:title="NON AC"
+                app:actionViewClass="android.widget.CheckBox" />
+
+        </menu>
+    </item>
+    <item android:title="Sleeper">
+        <menu>
+            <item
+                android:id="@+id/sleeper"
+                android:title="Sleeper"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/semiSleeper"
+                android:title="Semi Sleeper"
+                app:actionViewClass="android.widget.CheckBox" />
+
+        </menu>
+    </item>
+    <item android:title="Sleeper">
+        <menu>
+
+
+
+
+            <item
+                android:id="@+id/greenline"
+                android:title="Greenline Bus"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/jabbar"
+                android:title="Jabbar travels"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/jahan"
+                android:title="Jahan Travels"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/kpn"
+                android:title="KPN Travels"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/national"
+                android:title="National travels"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/praveen"
+                android:title="Praveen Travels"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/royal"
+                android:title="Royal Travels"
+                app:actionViewClass="android.widget.CheckBox" />
+
+            <item
+                android:id="@+id/sharma"
+                android:title="Sharma Transports"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/sps"
+                android:title="SPS Travels"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/srs"
+                android:title="SRS Travels"
+                app:actionViewClass="android.widget.CheckBox" />
+            <item
+                android:id="@+id/vrl"
+                android:title="VRL Travels"
+                app:actionViewClass="android.widget.CheckBox" />
+
+
+        </menu>
+    </item>
+</menu>
